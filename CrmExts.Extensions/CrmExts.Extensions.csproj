@@ -50,6 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityExtensions.cs" />
+    <Compile Include="Models\Enums.cs" />
+    <Compile Include="Models\insurance_contract.cs" />
+    <Compile Include="Models\loan.cs" />
+    <Compile Include="Models\Model.cs" />
     <Compile Include="OrganizationServiceExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoryQuery.cs" />
